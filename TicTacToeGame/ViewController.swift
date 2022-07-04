@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
     
     @objc func newGameButtonDidTap() {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let storyboard = UIStoryboard(name: String(describing: TicTacToeViewController.self), bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: String(describing: TicTacToeViewController.self))
         self.present(vc, animated: true)
     }

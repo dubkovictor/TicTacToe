@@ -6,7 +6,6 @@
 //
 
 import XCTest
-import UIKit
 @testable import TicTacToeGame
 
 class ViewControllerTest: XCTestCase {

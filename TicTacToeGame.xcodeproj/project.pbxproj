@@ -21,6 +21,7 @@
 		5796D6BC2872FF8A00105AD4 /* TicTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D6BB2872FF8A00105AD4 /* TicTacToeViewController.swift */; };
 		5796D6C22873007300105AD4 /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D6C12873007300105AD4 /* ViewControllerTest.swift */; };
 		5796D6C4287300D700105AD4 /* TicTacToeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5796D6C3287300D700105AD4 /* TicTacToeViewController.storyboard */; };
+		5796D6C6287309B900105AD4 /* TicTacToeViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5796D6C5287309B900105AD4 /* TicTacToeViewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		5796D6BB2872FF8A00105AD4 /* TicTacToeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewController.swift; sourceTree = "<group>"; };
 		5796D6C12873007300105AD4 /* ViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
 		5796D6C3287300D700105AD4 /* TicTacToeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TicTacToeViewController.storyboard; sourceTree = "<group>"; };
+		5796D6C5287309B900105AD4 /* TicTacToeViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				5796D6C12873007300105AD4 /* ViewControllerTest.swift */,
+				5796D6C5287309B900105AD4 /* TicTacToeViewControllerTest.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5796D6B82872FE7300105AD4 /* TicTacToeTest.swift in Sources */,
+				5796D6C6287309B900105AD4 /* TicTacToeViewControllerTest.swift in Sources */,
 				5796D69F2872FB3B00105AD4 /* TicTacToeGameTests.swift in Sources */,
 				5796D6C22873007300105AD4 /* ViewControllerTest.swift in Sources */,
 			);
